@@ -14,3 +14,8 @@ document.querySelector("#cart-item").onclick = () => {
     cartItemData.classList.toggle('active');
     searchForm.classList.remove('active');
 }
+var home1 = document.getElementById("home1");
+var home = document.getElementById("home");
+home.onclick = function() {
+    home1.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('image.jpeg')";
+}
